@@ -91,18 +91,9 @@ This work was developed as an **academic mini-project in Telecommunications Engi
 
 ---
 ## How to Run the Project
+```bash
 git clone https://github.com/Malek-Ou/rl-kubernetes-scheduler.git
 cd rl-kubernetes-scheduler
 
 ---
-
-## Repository Structure
-
-```text
-.
-├── notebooks/
-│   ├── 0_environment_test.ipynb   # Environment 1 (simplified, no waiting constraint)
-│   └── 02_environment.ipynb        # Environment 2 (realistic, with waiting constraint)
-├── README.md
-
 
