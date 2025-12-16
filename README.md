@@ -108,7 +108,5 @@ cd rl-kubernetes-scheduler
 ├── notebooks/
 │   ├── 03_environment_test.ipynb   # Environment 1 (simplified, no waiting constraint)
 │   └── 06_environment.ipynb        # Environment 2 (realistic, with waiting constraint)
-│
 ├── README.md
-└── requirements.txt
 
