@@ -11,7 +11,16 @@ Performance is evaluated against the **default Kubernetes scheduler** and a **ra
 This work was developed as an **academic mini-project in Telecommunications Engineering** at **ENET’COM – University of Sfax (2025–2026)**.
 
 ---
+## Technologies Used
 
+- Python 3  
+- OpenAI Gym  
+- Stable-Baselines3  
+- NumPy  
+- Matplotlib  
+- TensorBoard  
+- Jupyter Notebook  
+---
 ## Project Objectives
 
 - Model a Kubernetes-like cluster as a Reinforcement Learning environment  
@@ -81,16 +90,9 @@ This work was developed as an **academic mini-project in Telecommunications Engi
 - Penalty for delays and inefficient decisions  
 
 ---
-
-## Technologies Used
-
-- Python 3  
-- OpenAI Gym  
-- Stable-Baselines3  
-- NumPy  
-- Matplotlib  
-- TensorBoard  
-- Jupyter Notebook  
+## How to Run the Project
+git clone https://github.com/Malek-Ou/rl-kubernetes-scheduler.git
+cd rl-kubernetes-scheduler
 
 ---
 
@@ -99,8 +101,8 @@ This work was developed as an **academic mini-project in Telecommunications Engi
 ```text
 .
 ├── notebooks/
-│   ├── 03_environment_test.ipynb   # Environment 1 (simplified, no waiting constraint)
-│   └── 06_environment.ipynb        # Environment 2 (realistic, with waiting constraint)
+│   ├── 0_environment_test.ipynb   # Environment 1 (simplified, no waiting constraint)
+│   └── 02_environment.ipynb        # Environment 2 (realistic, with waiting constraint)
 ├── README.md
 
 
