@@ -61,7 +61,7 @@ This work was developed as an **academic mini-project in Telecommunications Engi
 - 50 pods  
 - Maximum wait time = 3  
 
-**Results**
+### Results 
 PPO performance degrades in the realistic environment with waiting-time constraints.  
 However, the agent can be further **optimized and improved** by:
 
