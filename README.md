@@ -62,11 +62,12 @@ This work was developed as an **academic mini-project in Telecommunications Engi
 - Maximum wait time = 3  
 
 **Results**
-- PPO performance degrades  
-- Reveals the importance of:
-  - Reward shaping  
-  - State completeness  
-  - Sufficient exploration during training  
+PPO performance degrades in the realistic environment with waiting-time constraints.  
+However, the agent can be further **optimized and improved** by:
+
+-Training the RL agent for more episodes and with varied initial conditions  
+-Reward shaping to better guide learning under constraints  
+-Increasing exploration during training to avoid suboptimal policies
 
 ---
 
