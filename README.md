@@ -91,9 +91,6 @@ However, the agent can be further **optimized and improved** by:
 - Penalty for delays and inefficient decisions  
 
 ---
-## How to Run the Project
-```bash
-git clone https://github.com/Malek-Ou/rl-kubernetes-scheduler.git
-cd rl-kubernetes-scheduler
+
 
 
